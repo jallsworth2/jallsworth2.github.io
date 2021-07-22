@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 16px sans-serif;
+
+    color: yellow;
+    overflow: hidden;
+    /*background: "https://stmed.net/sites/default/files/sea-of-thieves-hd-wallpapers-33597-7378771.png";*/
+    background: "https://i.imgur.com/6UZgnRn.jpg";
+
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+button, input[type="text"], input[type="number"], .select-container, select {
+    color: yellow;
+    background: none;
+
+    border: none;
+    font-size: 14px;
+    padding: 6px 8px;
+    cursor: pointer;
+    outline: 0;
+}
+
+
+/* Major interface panes, aside, article, header, etc. */
+body > * {
+     
+
+
+    position: fixed;
+    
+}
+
+#score {
+    position: fixed;
+    padding:0;
+    font-family: sans-serif;
+    display: block;
+    height: 20vh;
+    width: 40vw;
+    top: 1vh;
+    left: 28vw;
+    font-size: 30vw;
+    line-height: 1;
+    color:blue;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+#redFlag {
+    cursor: pointer;
+    position: fixed;
+    padding:0;
+
+    display: block;
+    height: 50vh;
+    width: 100vw;
+    bottom: 0vh;
+    left: 0vw;
+ 
+
+}
+#blueFlag {
+    cursor: pointer;
+    position: fixed;
+    padding:0;
+
+    display: block;
+    height: 50vh;
+    width: 100vw;
+    bottom: 50vh;
+    left: 0vw;
+
+}
+
+#add3 {
+    cursor: pointer;
+    position: fixed;
+    font-family: sans-serif;
+    display: block;
+    height: 20vh;
+    width: 40vw;
+    top: 68vh;  
+    left: 55vw;
+    font-size: 22vw;
+    line-height: 1;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#add2 {
+    cursor: pointer;
+    position: fixed;
+    font-family: sans-serif;
+    display: block;
+    height: 20vh;
+    width: 40vw;
+    top: 43vh;
+    left: 55vw;
+    font-size: 22vw;
+    line-height: 1;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#add1 {
+    cursor: pointer;
+    position: fixed;
+    font-family: sans-serif;
+    display: block;
+    height: 20vh;
+    width: 40vw;
+    top: 18vh;
+    left: 55vw;
+    font-size: 22vw;
+    line-height: 1;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+#sub3 {
+    cursor: pointer;
+    position: fixed;
+    font-family: sans-serif;
+    display: block;
+    height: 20vh;
+    width: 40vw;
+    top: 68vh;
+    left: 1vw;
+    font-size: 22vw;
+    line-height: 1;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+#sub2{
+    cursor: pointer;
+    position: fixed;
+    font-family: sans-serif;
+    display: block;
+    height: 20vh;
+    width: 40vw;
+    top: 43vh;
+    left: 1vw;
+    font-size: 22vw;
+    line-height: 1;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#sub1 {
+    cursor: pointer;
+    position: fixed;
+    font-family: sans-serif;
+    display: block;
+    height: 20vh;
+    width: 40vw;
+    top: 18vh;
+    left: 1vw;
+    font-size: 22vw;
+    line-height: 1;
+    color:white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+
